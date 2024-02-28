@@ -39,7 +39,7 @@ export const deliveryData = async (req, res) => {
       <p>Customer Email: ${saveDelivery.customer_email}</p>
       <p>Delivery Date: ${saveDelivery.delivery_date}</p>
       <p>Product image: </p>
-      <img src="cid:unique-image-id" alt="Embedded Image">
+      <img src="cid:unique-image-id" style="width: 400px; height:300px; "  alt="Product Image">
       `,
       attachments: [
         {
